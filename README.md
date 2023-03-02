@@ -12,12 +12,13 @@
 
 <h3>Table of contents</h3>
 <ul>
-  <li>Structure</li>
-  <li>Overview</li>
-  <li>Responsive</li>
-  <li>Contacts</li>
+  <li><a href="#structure">Structure</a></li>
+  <li><a href="#overview">Overview</a></li>
+  <li><a href="#responsive">Responsive</a></li>
+  <li><a href="#contacts">Contacts</a></li>
 </ul>
 
+<a name="structure"></a>
 <h3>Structure</h3>
 
 <p>I chose some specific font:</p>
@@ -52,6 +53,7 @@
   <li>#008036</li>
 </ul>
 
+<a name="overview"></a>
 <h3>Overview</h3>
 
 <p>
@@ -71,11 +73,13 @@ Both in the favicon and the footer I've put a little logo that refer to the styl
 ![about](https://user-images.githubusercontent.com/121359947/222461710-94d6d7b4-fe51-45b5-9912-6c8506107c15.png)
 ![projects](https://user-images.githubusercontent.com/121359947/222461730-86f9fc07-840a-4c2b-92b5-78af9f3884cb.png)
 
+<a name="responsive"></a>
 <h3>Responsive</h3>
 <p>
 The site is completely responsive and it can be used in several device.
 </p>
 
+<a name="contacts"></a>
 <h3>Contacts</h3>
 
 <a href="so-ca-portfolio.netlify.app">Portfolio</a><br>
