@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: $bg-color;
+}
+
+header{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: $bar-color;
+}
+
+h1{
+    font-size: 4em;
+    text-align: center;
+    font-family: $title-font;
+    color: rgb(210, 237, 247);
+}
+
+h2{
+    font-size: 3em;
+    font-family: $link-font;
+    color:rgb(0, 0, 0);
+}
+
+h3{
+    text-align: center;
+    margin: 25px;
+    font-family: $title-font;
+}
+
+h6{
+    margin: 10px;
+}
+
+ul{
+    font-size: 20px;
+    font-family: $text-font;
+}
+
+a{
+    font-family: $link-font;
+    font-size: 24px;
+    text-decoration: none;
+    color: $link-color;
+    font-weight: bold;
+
+    &:hover{
+        color:rgb(83, 155, 203);
+    }
+    &:active{
+        color: black;
+    }
+    &:visited{
+        color:rgb(117, 121, 124);
+    }
+    &:visited:hover{
+        color: rgb(210, 237, 247);
+    }
+    &:visited:active{
+        color: black;
+    }
+}
+
+label{
+    font-size: 20px;
+    font-family: $link-font;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profile-pic{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-pic img{
+    margin-top: 50px;
+    margin-left: 110px;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.info{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-right: 120px;
+}
+
+.social img{
+    height: 30px;
+}
+
+.farewell{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: $title-font;
+    font-weight: bold;
+}
+
+.ending{
+    display: flex;
+    margin-left: 750px;
+    margin-bottom: 40px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.submission{
+    padding: 5px;
+    background: rgb(83, 155, 203);
+    border: 1px solid $bar-color;
+    border-radius: 5px;
+    color: white;
+    width: 75px;
+    margin: 10px 20px;
+}
+.submission:hover{
+    background-color: rgb(99, 181, 235);
+}
+.submission:active{
+    background-color: white;
+    color: rgb(83, 155, 203);
+}
+
+.bar-bottom{
+    background: $bar-color;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

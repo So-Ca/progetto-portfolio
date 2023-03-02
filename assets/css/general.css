@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../img/bianco-verticale.jpg);
+}
+
+header{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(54, 75, 95);
+}
+
+h1{
+    font-size: 4em;
+    text-align: center;
+    font-family: "Audiowide", Helvetica, sans-serif;
+    color: rgb(210, 237, 247);
+}
+
+h2{
+    font-size: 3em;
+    font-family: 'Rajdhani', Helvetica, sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+h3{
+    text-align: center;
+    margin: 25px;
+    font-family: "Audiowide", Helvetica, sans-serif;
+}
+
+h6{
+    margin: 10px;
+}
+
+ul{
+    font-size: 20px;
+    font-family: "Roboto Flex", Helvetica, sans-serif;
+}
+
+a{
+    font-family: "Rajdhani", Helvetica, sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: #1475BC;
+    font-weight: bold;
+}
+a:hover{
+    color:rgb(83, 155, 203);
+}
+a:active{
+    color: black;
+}
+a:visited{
+    color:#75797c;
+}
+a:visited:hover{
+    color: #d2edf7;
+}
+a:visited:active{
+    color: black;
+}
+
+label{
+    font-size: 20px;
+    font-family: "Rajdhani", Helvetica, sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profile-pic{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-pic img{
+    margin-top: 50px;
+    margin-left: 110px;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.info{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-right: 120px;
+}
+
+.social img{
+    height: 30px;
+}
+
+
+.farewell{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: "Audiowide", Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.ending{
+    display: flex;
+    margin-left: 750px;
+    margin-bottom: 40px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.submission{
+    padding: 5px;
+    background: rgb(83, 155, 203);
+    border: 1px solid rgb(54, 75, 95);
+    border-radius: 5px;
+    color: white;
+    width: 75px;
+    margin: 10px 20px;
+}
+.submission:hover{
+    background-color: rgb(99, 181, 235);
+}
+.submission:active{
+    background-color: white;
+    color: rgb(83, 155, 203);
+}
+
+.bar-bottom{
+    background: rgb(54, 75, 95);
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

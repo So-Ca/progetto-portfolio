@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    background: $bg-color;
+}
+
+h3{
+    font-family: $link-font;
+    margin-left: 20px;
+    font-weight: bold;
+    color: $link-color;
+}
+
+h2{
+    font-family: $title-font;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+hr{
+    width: 7%;
+    margin-left: 20px;
+    margin-top: 0;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+p{
+    font-family: $text-font;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.4em;
+}
+
+a{
+    font-family: $link-font;
+    font-size: 24px;
+    text-decoration: none;
+    color: $link-color;
+    font-weight: bold;
+
+    &:hover{
+        color:rgb(83, 155, 203);
+    }
+    &:active{
+        color: black;
+    }
+    &:visited{
+        color:rgb(117, 121, 124);
+    }
+    &:visited:hover{
+        color: rgb(210, 237, 247);
+    }
+    &:visited:active{
+        color: black;
+    }
+}
+
+.thumbnail{
+    height: 415px;
+}
+
+.contacts{
+    display: flex;
+    margin: 140px 300px;
+}
+
+.presentation{
+    width: 80%;
+}
+
+.details{
+    display: Flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 7px double #1475BC;
+    border-radius: 50px;
+    width: 80%;
+    height: 150px;
+    margin-left: 15px;
+}
+
+.birth,
+.email{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: $link-font;
+    font-size: 18px;
+}
+
+.name,
+.skype,
+.mobile,
+.address{
+    font-family: $link-font;
+    font-size: 18px;
+}
+
+.email a{
+    font-size: 18px;
+}
+
+.download{
+    margin-left: 1030px;
+    margin-top: -100px;
+    margin-bottom: 140px;
+    margin-right: auto;
+    background: $link-color;
+    border: 1px solid rgb(54, 75, 95);
+    border-radius: 25px;
+    width: 110px;
+    text-align: center;
+}
+
+.download a{
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: $link-font;
+}
+
+.bar-bottom{
+    background: $bar-color;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

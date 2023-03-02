@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    background: url(../img/bianco-verticale.jpg);
+}
+
+h3{
+    font-family: "Rajdhani", Helvetica, sans-serif;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #1475BC;
+}
+
+h2{
+    font-family: "Audiowide", Helvetica, sans-serif;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+hr{
+    width: 7%;
+    margin-left: 20px;
+    margin-top: 0;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+p{
+    font-family: "Roboto Flex", Helvetica, sans-serif;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.4em;
+}
+
+a{
+    font-family: "Rajdhani", Helvetica, sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: #1475BC;
+    font-weight: bold;
+}
+a:hover{
+    color:rgb(83, 155, 203);
+}
+a:active{
+    color: black;
+}
+a:visited{
+    color:rgb(117, 121, 124);
+}
+a:visited:hover{
+    color: rgb(210, 237, 247);
+}
+a:visited:active{
+    color: black;
+}
+
+.thumbnail{
+    height: 415px;
+}
+
+.contacts{
+    display: flex;
+    margin: 140px 300px;
+}
+
+.presentation{
+    width: 80%;
+}
+
+.details{
+    display: Flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 7px double #1475BC;
+    border-radius: 50px;
+    width: 80%;
+    height: 150px;
+    margin-left: 15px;
+}
+
+.birth,
+.email{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: "Rajdhani", Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.name,
+.skype,
+.mobile,
+.address{
+    font-family: "Rajdhani", Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.email a{
+    font-size: 18px;
+}
+
+.download{
+    margin-left: 1030px;
+    margin-top: -100px;
+    margin-bottom: 140px;
+    margin-right: auto;
+    background: #1475BC;
+    border: 1px solid rgb(54, 75, 95);
+    border-radius: 25px;
+    width: 110px;
+    text-align: center;
+}
+
+.download a{
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: "Rajdhani", Helvetica, sans-serif;
+}
+
+.bar-bottom{
+    background: rgb(54, 75, 95); ;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 500px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contacts{
+        margin: 5% 1% 5% 15%;
+        display: flex;
+        flex-direction: column;
+    }
+    .thumbnail{
+        margin: 5% 30%;
+        width: 30%;
+        height: 30%;
+    }
+    .details{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 1;
+    }
+    .name,
+    .skype,
+    .mobile,
+    .address,
+    .birth,
+    .email{
+        margin: auto;
+    }
+    .address,
+    .mobile,
+    .email{
+        margin-left: 65px;
+    }
+    .download{
+        margin: 10px auto;
+    }
+    .bar-bottom{
+        margin: auto;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 750px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contacts{
+        margin: 5% 1% 5% 15%;
+        display: flex;
+        flex-direction: column;
+    }
+    .thumbnail{
+        margin: 5% 30%;
+        width: 30%;
+        height: 30%;
+    }
+    .details{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 1;
+    }
+    .name,
+    .skype,
+    .mobile,
+    .address,
+    .birth,
+    .email{
+        margin: auto;
+    }
+    .address,
+    .mobile,
+    .email{
+        margin-left: 65px;
+    }
+    .download{
+        margin: 10px auto;
+    }
+    .bar-bottom{
+        margin: auto;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contacts{
+        margin: 5% 1% 5% 15%;
+        display: flex;
+        flex-direction: column;
+    }
+    .thumbnail{
+          margin: 5% 30%;
+    }
+    .details{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 1;
+    }
+    .name,
+    .skype,
+    .mobile,
+    .address,
+    .birth,
+    .email{
+        margin: auto;
+    }
+    .address,
+    .mobile,
+    .email{
+        margin-left: 65px;
+    }
+    .download{
+        margin: 10px auto;
+    }
+    .bar-bottom{
+        margin: auto;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1300px){
+    body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contacts{
+        margin: 5% 1% 5% 15%;
+        display: flex;
+        flex-direction: column;
+    }
+    .thumbnail{
+        margin: 5% 30%;
+    }
+    .details{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 1;
+    }
+    .name,
+    .skype,
+    .mobile,
+    .address,
+    .birth,
+    .email{
+        margin: auto;
+    }
+    .address,
+    .mobile,
+    .email{
+        margin-left: 65px;
+    }
+    .download{
+        margin: 10px auto;
+    }
+    .bar-bottom{
+        margin: auto;
+    }
+}

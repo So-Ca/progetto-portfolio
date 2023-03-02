@@ -1,0 +1,9 @@
+This SASS files was here just because I start the project using SASS files, 
+but then I've realized that I was doing better job with CSS, 
+so I've decided to not use SASS and do my job with CSS.
+
+Please don't cosidere these files as my actual work, they are just there as a my personal example and exercises.
+
+
+Thanks
+Sonny
