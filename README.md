@@ -15,7 +15,6 @@
   <li>Structure</li>
   <li>Overview</li>
   <li>Responsive</li>
-  <li></li>
   <li>Contacts</li>
 </ul>
 
