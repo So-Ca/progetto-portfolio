@@ -39,6 +39,11 @@ a:visited:active{
     color: black;
 }
 
+iframe{
+    border: 5px solid #66350d;
+    border-radius: 3%;
+}
+
 .wip{
     max-width: 300px; 
     margin-left: 800px;
